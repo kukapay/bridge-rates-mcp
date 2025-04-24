@@ -40,7 +40,7 @@ server.tool(
       }
 
       // Format routes into a Markdown table
-      let markdownTable = "| From Amount | From Amount USD | To Amount | To Amount USD | To Amount Min | Gas Cost USD | Tools | Tags |\n";
+      let markdownTable = "| From Amount | From Amount USD | To Amount | To Amount USD | To Amount Min | Gas Cost USD | Providers | Tags |\n";
       markdownTable += "|-------------|-----------------|-----------|---------------|---------------|--------------|-------|------|\n";
       quote.routes.forEach((route) => {
         const tools = route.steps.map((step) => step.tool).join(", ");

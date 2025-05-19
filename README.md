@@ -6,6 +6,8 @@ An MCP server that delivers real-time cross-chain bridge rates and optimal trans
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-green.svg)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
+[![smithery badge](https://smithery.ai/badge/@kukapay/bridge-rates-mcp)](https://smithery.ai/server/@kukapay/bridge-rates-mcp)
+
 
 ## Features
 
@@ -20,6 +22,16 @@ An MCP server that delivers real-time cross-chain bridge rates and optimal trans
 - **MCP Client**: An MCP-compatible client (e.g., Claude Desktop) to interact with the server.
 
 ## Installation
+
+### Installing via Smithery
+
+To install Bridge Rates Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kukapay/bridge-rates-mcp):
+
+```bash
+npx -y @smithery/cli install @kukapay/bridge-rates-mcp --client claude
+```
+
+### Installing Manually
 
 1. **Clone the Repository**:
    ```bash
